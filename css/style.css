@@ -5,7 +5,9 @@ body {
 li {
   list-style: none;
 }
-
+a {
+  text-decoration: none;
+}
 /*------header-------*/
 header {
   background-color: lightgrey;
@@ -18,6 +20,7 @@ nav {
   
 }
 nav h1 {
+  color:darksalmon;
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 2.5rem
@@ -48,6 +51,7 @@ main h3 {
   margin-top: 70px;
   margin-bottom: 70px;
   font-size: 1.25rem;
+  color:black;
 }
 
 .content img {
@@ -80,6 +84,7 @@ footer {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 40px;
+  color:black;
 }
 .contact p {
   font-size: 24px;
