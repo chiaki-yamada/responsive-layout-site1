@@ -32,7 +32,7 @@ nav li {
   font-size: 1.25rem;
   font-weight: bold;
 }
-.profile h1 img {
+.profile img {
   width: 310px;
   height: auto;
 }
@@ -125,7 +125,7 @@ footer {
   nav {
     margin-bottom: 10px;
   }
-  .profile h1 {
+  .profile img {
     padding: 18px;
   }
   .profile p{
@@ -177,46 +177,46 @@ footer {
   .name {
     margin-right: auto;
   }
- }
+}
 
 
- @media screen and (min-width: 1240px) {
- nav {
+@media screen and (min-width: 1240px) {
+  nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-left: 50px;
   margin-right: 50px;
- }
- nav h1 {
+  }
+  nav h1 {
   margin-right: auto;
- }
-.profile {
+  }
+  .profile {
   margin-left: 50px;
   margin-right: 50px;
   justify-content: space-between;
-}
-.profile p {
+  }
+  .profile p {
   width: 55%;
-}
-}
-.profile h1 img {
+  }
+  .profile img {
   width: 400px;
   height: auto;
 
-}
-.content {
+  }
+  .content {
   margin-left: 50px;
   margin-right: 50px;
-}
-.item-1, .item-2, .item-3, .item-4, .item-5, .item-6 {
+  }
+  .item-1, .item-2, .item-3, .item-4, .item-5, .item-6 {
   max-width: 30%;
-}
+  }
 
-.contact .first {
+  .contact .first {
   width: 650px;
   margin: auto;
   margin-bottom: 60px;
+  }
 }
- }
+
 
