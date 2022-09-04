@@ -22,7 +22,9 @@ nav h1 {
   margin-bottom: 30px;
   font-size: 2.5rem
 }
-
+nav ul {
+  padding: 0%;
+}
 nav li {
   background-color: white;
   padding: 18px;
@@ -53,6 +55,7 @@ main h3 {
 }
 .content {
   padding: 40px 20px;
+  
 }
 .content h2 {
   text-align: center;
@@ -140,6 +143,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: space-around;
   }
   .content h2 {
     font-size: 1.25rem;
@@ -150,7 +154,7 @@ footer {
     margin-left: 10%;
   }
   .item-1, .item-2, .item-3, .item-4, .item-5, .item-6 {
-    max-width: 50%;
+    max-width: 45%;
 
   }
 
@@ -173,17 +177,46 @@ footer {
   .name {
     margin-right: auto;
   }
-  
-  
-  
-
-    
-
-
-
-    
-
-
-
-  
  }
+
+
+ @media screen and (min-width: 1240px) {
+ nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+ }
+ nav h1 {
+  margin-right: auto;
+ }
+.profile {
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
+}
+.profile p {
+  width: 55%;
+}
+}
+.profile h1 img {
+  width: 400px;
+  height: auto;
+
+}
+.content {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6 {
+  max-width: 30%;
+}
+
+.contact .first {
+  width: 650px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+ }
+
